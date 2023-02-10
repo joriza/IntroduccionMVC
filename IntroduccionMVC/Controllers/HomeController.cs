@@ -15,7 +15,7 @@ namespace IntroduccionMVC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Página de descripción de la aplicación.";
 
             return View();
         }
@@ -24,6 +24,11 @@ namespace IntroduccionMVC.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult Mision() 
+        {
             return View();
         }
     }
